@@ -10,49 +10,59 @@
 * {
     font-family: Barlow;
 }
+
 .parent {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 32px;
+    width: 80%;
+    margin: auto;
+    border-color: white;
 }
     
 .div1 {
-    grid-column: span 5 / span 5;
+    grid-column: span 6 / span 6;
     grid-row: span 3 / span 3;
-    
+    background-color: hsl(263, 55%, 52%);
+    color: white;
 }
 
 .div2 {
-    grid-column: span 2 / span 2;
+    grid-column: span 3 / span 3;
     grid-row: span 3 / span 3;
-    grid-column-start: 6;
-    
+    grid-column-start: 7;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
 }
 
 .div3 {
-    grid-column: span 2 / span 2;
+    grid-column: span 3 / span 3;
     grid-row: span 3 / span 3;
     grid-column-start: 1;
     grid-row-start: 4;
-    
+    background-color: white;
+    color: hsl(219, 29%, 14%)
 }
 
 .div4 {
-    grid-column: span 5 / span 5;
+    grid-column: span 6 / span 6;
     grid-row: span 3 / span 3;
-    grid-column-start: 3;
+    grid-column-start: 4;
     grid-row-start: 4;
-    
+    background-color: hsl(219, 29%, 14%);
+    color: white;
 }
 
 .div5 {
+    grid-column: span 3 / span 3;
     grid-row: span 6 / span 6;
-    grid-column-start: 8;
+    grid-column-start: 10;
     grid-row-start: 1;
-    
+    background-color: white;
+    color: hsl(219, 29%, 14%);
 }
-       
+              
 .div1, .div2, .div3, .div4, .div5 {
     & > p {
         font-size: 13px;
