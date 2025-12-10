@@ -67,4 +67,8 @@
     & > p {
         font-size: 13px;
     }
+    padding: 3%;
+    border-radius: 5%;
+    box-shadow: 31px 31px 85px -35px rgba(0,0,0,0.75);
+
 }
