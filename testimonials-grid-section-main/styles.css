@@ -9,6 +9,7 @@
 
 * {
     font-family: Barlow;
+    box-sizing: border-box;
 }
 
 .parent {
