@@ -1,8 +1,8 @@
-# CTI-110 Final Project - Testimonials Grid by FIRST NAME LAST NAME
+# CTI-110 Final Project - Testimonials Grid by Jordan Mantel
 
 ## Table of contents
 
-- [CTI-110 Final Project - Testimonials Grid by FIRST NAME LAST NAME](#cti-110-final-project---testimonials-grid-by-first-name-last-name)
+- [CTI-110 Final Project - Testimonials Grid by Jordan Mantel](#cti-110-final-project---testimonials-grid-by-jordan-mantel)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -51,6 +51,7 @@ I figured out that some properties only applied properly when applied to all chi
 ### Continued development
 
 In the future, I want to get to understand the CSS Grid more and use it to create websites easier than before. I would also like to learn techniques to measure the proportions of the example images to make a site closer to the vision given (The proportions as they are in the final project don't match exactly.)
+Unfortunately, I didn't leave myself any time to figure out the mobile responsiveness... I'm probably losing a lot of points.
 
 ### Useful resources
 - [CSS Grid Generator](https://cssgridgenerator.io/) - Made creating the grid layout really easy.
