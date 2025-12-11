@@ -64,11 +64,32 @@
 }
               
 .div1, .div2, .div3, .div4, .div5 {
-    & > p {
-        font-size: 13px;
-    }
     padding: 3%;
     border-radius: 5%;
     box-shadow: 31px 31px 85px -35px rgba(0,0,0,0.75);
 
+    & > p {
+        font-size: 13px;
+    }
+
+    & > h4 {
+        float:initial;
+    }
+}
+
+.internalgrid {
+    display: inline-grid;
+    justify-content: start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+
+    & > img {
+        float: left;
+        border-radius: 50%;
+    }
+}
+
+.internalgrid h4 {
+    grid-column-start: 2;
 }
