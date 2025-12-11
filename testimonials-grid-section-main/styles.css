@@ -93,3 +93,8 @@
 .internalgrid h4 {
     grid-column-start: 2;
 }
+
+.internalgrid img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
